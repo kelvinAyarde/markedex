@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsuarioCategoria">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_Cosmeticos"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_cosmeticos"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_Ferreteria"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_ferreteria"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_FrutasVerduras"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_frutas_verduras"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_MaterialEscolar"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_material_escolar"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_Tecnologia"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_tecnologia"
+            android:visibility="visible"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_CosasHogar"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_cosas_hogar"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173">
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_RopaAccesorios"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_ropa_accesorios"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/cat_ropa_accesorios"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/btnUsuarioCategoria_ComidaSnack"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat_comida_snack"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/cat_comida_snack" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

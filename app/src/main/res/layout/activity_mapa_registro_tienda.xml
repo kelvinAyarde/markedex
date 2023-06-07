@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity_regitro_tienda" />
+
+    <Button
+        android:id="@+id/btn_satReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satelite" />
+
+    <Button
+        android:id="@+id/btn_savReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_satReg"
+        android:text="Confirmar Registro" />
+
+    <Button
+        android:id="@+id/tbn_norReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_savReg"
+        android:text="Normal" />
+
+</RelativeLayout>
